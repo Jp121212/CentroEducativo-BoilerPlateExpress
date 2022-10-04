@@ -19,7 +19,7 @@ class AuthControl extends BaseController {
       const result = await authServ.register(data);
       this.responseHandler(
         res,
-        { message: `Usuario ${result.name} creado correctamente :)` },
+        { message: `Usuario ${result.nickname} creado correctamente :)` },
         201
       );
     } catch (error: any) {
