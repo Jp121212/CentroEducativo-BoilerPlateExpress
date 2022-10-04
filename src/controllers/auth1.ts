@@ -30,14 +30,14 @@ class AuthControl extends BaseController {
       }
     }
   }
-   async userview(req: Request,res: Response) {
-     try {
-      const result = await authServ.viewuser();
-      this.responseHandler(res, result, 201);
-    } catch (error: any) {
-       this.errorHandler(res, error);
-    }
-    }
+//    async userview(req: Request,res: Response) {
+//      try {
+//       const result = await authServ.viewuser();
+//       this.responseHandler(res, result, 201);
+//     } catch (error: any) {
+//        this.errorHandler(res, error);
+//     }
+//     }
  
 
 }

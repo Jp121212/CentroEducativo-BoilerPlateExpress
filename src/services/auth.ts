@@ -32,10 +32,10 @@ class AuthServ {
     );
   }
   
-  async viewuser(){
-    const user = await ServU.findalluser();
-    return user;
-  }
+//   async viewuser(){
+//     const user = await ServU.findalluser();
+//     return user;
+//   }
 
   register(user: User) {
     const { password, ...rest } = user;
